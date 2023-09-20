@@ -1,0 +1,52 @@
+
+body {
+  
+    background-image: linear-gradient(to right, red , blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .timecontainer{
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    height: 50px;
+    width: 40vw;
+    display: flex;
+    gap: 25px;
+   align-items: center;
+   justify-content: center;
+  }
+  @media screen and (max-width:950px){
+    .timecontainer{
+ 
+   font-size: xx-large;
+   width: 50vw;
+    }
+ }
+  @media screen and (max-width:600px){
+    .timecontainer{
+   flex-direction: column;
+   height: 90vh;
+   font-size: xx-large;
+    }
+ }
+ @media screen and (max-width:410px){
+    .timecontainer{
+   flex-direction: column;
+   height: 90vh;
+   font-size: x-large;
+   width: 40vw;
+    }
+ }
+ @media screen and (max-width:300px){
+    .timecontainer{
+   flex-direction: column;
+   height: 80vh;
+   font-size: large;
+   width: 40vw;
+    }
+ }
